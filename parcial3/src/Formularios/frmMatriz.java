@@ -19,15 +19,12 @@ public class frmMatriz extends javax.swing.JFrame {
     private JPanel panelMatriz;
     
     public frmMatriz() {
-        // Configuración básica
         setTitle("Matriz 6x6");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         
-        // 1. Panel principal (IMPORTANTE)
         JPanel contentPane = new JPanel(new BorderLayout());
         setContentPane(contentPane);
         
-        // 2. Panel de matriz
         panelMatriz = new JPanel(new GridLayout(6,6,2,2));
         for(int i=0; i<6; i++) {
             for(int j=0; j<6; j++) {
@@ -60,7 +57,7 @@ public class frmMatriz extends javax.swing.JFrame {
 
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+
     private void initComponents() {
 
         txtMatriz00 = new javax.swing.JTextField();
